@@ -1,0 +1,48 @@
+.retangulo {
+    width: 220pt;
+    height: 270pt;
+}
+
+.retangulo-float figure:first-child { 
+    background-image: url('../midia/eu.jpeg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    position: relative; 
+    border: 1px solid #3D7B80;
+}
+
+.retangulo-float div:last-child {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid black;
+    opacity: 0.9;
+    margin-top: -150px;
+    margin-left: 175px;
+    display: flex;
+}
+
+.retangulo figcaption {
+    background-color: #fff;
+    padding: 4px;
+    text-align: center;
+    opacity: .8;
+}
+
+.retangulo figcaption strong {
+    color: #3D7B80;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.icones-linguagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60pt;
+}
+
+.icones-linguagens span {
+    margin-right: 3px;
+    padding: 3px;
+}
