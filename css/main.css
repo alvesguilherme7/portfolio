@@ -7,28 +7,20 @@ h1 {
 p {
     color: #000;
     font-family: 'Work Sans', sans-serif;
+    line-height: 16pt;
 }
 
 .conteudo {
-    width: 100%;
-    display: flex;
-    margin-top: 5pt;
-    justify-content: space-evenly;
-}
-
-.layout-direita{
-    width: 40%;
-}
-
-.flex-centro{
     display: flex;
     justify-content: space-evenly;
-}
-
-.colunas-2 section{
-    width: 45%;
+    width: 95%;
+    margin: auto;
 }
 
 .respiro {
     margin-bottom: 50px;
+}
+
+.conteudo a {
+    font-weight: 600;
 }
