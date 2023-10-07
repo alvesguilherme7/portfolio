@@ -24,3 +24,18 @@ p {
 .conteudo a {
     font-weight: 600;
 }
+
+.aceno {
+    display: block;
+    font-size: 14pt;
+    animation: acenar 0.8s infinite alternate;
+}
+
+@keyframes acenar {
+    0% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(20deg);
+    }
+}
