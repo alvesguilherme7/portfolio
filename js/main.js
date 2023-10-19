@@ -19,5 +19,14 @@ function calcularIdade() {
     document.getElementById("idade").innerText = idade;
 }
 
+function init(){
+    calcularIdade();
+    
+}
 
-calcularIdade();
+function mostrarConteudo(){
+    let divRenderizando = document.getElementById("renderizando");
+    divRenderizando.style.display = "none";
+}
+
+init();
